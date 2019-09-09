@@ -117,7 +117,6 @@ main{
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: black;
-    padding: 3em 5vw 4em;
 }
 
 .grid-article-2 {
@@ -126,7 +125,6 @@ main{
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: grey;
-    padding: 3em 5vw 4em;
 }
 
 .grid-article-3 {
@@ -144,14 +142,13 @@ main{
     grid-row-start: 2;
     grid-row-end: end;
     background-color: blue;
-    padding: 3em 5vw 4em;
 }
 
 .article-1-header {
-    width: 15em;
+    width: 9em;
     box-sizing: border-box;
     position: absolute;
-    margin: 4% 0 20px 32%;
+    margin: 4% 0 0 44%;
     text-align: center;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
