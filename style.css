@@ -116,7 +116,7 @@ main{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: black;
+    background-color: #888888;
 }
 
 .grid-article-2 {
@@ -124,7 +124,7 @@ main{
     grid-column-end: end;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: grey;
+    background-color: #686868;
 }
 
 .grid-article-3 {
@@ -132,7 +132,7 @@ main{
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: end;
-    background-color: green;
+    background-color: #505050;
 }
 
 .grid-article-4 {
@@ -140,7 +140,7 @@ main{
     grid-column-end: end;
     grid-row-start: 2;
     grid-row-end: end;
-    background-color: blue;
+    background-color: #888888;
 }
 
 .article-1-header {
@@ -160,4 +160,43 @@ main{
     color: black;
     background-color: white;
     padding: .3em .4em;
+}
+
+.text-article {
+    margin: 25%;
+    font-size: calc(1.375rem + 1.6vw);
+}
+
+.article-2 {
+    display: grid;
+    margin: 0;
+    height: 450px;
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-template-columns: repeat(3, 33.33% [col-start]);
+    grid-template-rows: 1;
+}
+
+.article-2-1 {
+    height: 100%;
+}
+
+.grid-article-2-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: transparent;
+}
+
+.grid-article-2-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: transparent;
+}
+
+.grid-article-2-3 {
+    grid-column-start: 3;
+    grid-column-end: end;
+    background-color: transparent;
 }
