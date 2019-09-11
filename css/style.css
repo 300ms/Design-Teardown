@@ -25,7 +25,7 @@ body {
     grid-area: main;
     background-color: white;
     height: 98%;
-    margin: 0 50px 0 0;
+    margin: 0;
 }
 
 
@@ -33,6 +33,7 @@ body {
     grid-area: aside;
     background-color: green;
     height: 98%;
+    margin-left: 10%;
 }
 
 .footer {
@@ -43,20 +44,29 @@ body {
 
 .main-section-1 {
     float: left;
-    width: 48%;
+    display: grid;
+    width: 70%;
     height: 100%;
     margin: 0 4% 0 0;
     padding: 0;
-
     background-color: gray;
+    grid-template-columns: repeat(6, 16.66%);
+    grid-template-rows: auto;
 }
 
 .main-section-2 {
     float: left;
-    width: 48%;
+    width: 26%;
     height: 100%;
     margin: 0;
     padding: 0;
 
     background-color: black;
+}
+
+.main-1-articles{
+    width: 100%;
+}
+.article-1{
+    
 }
